@@ -29,10 +29,10 @@ module.exports = [
       needComments: true,
       // 其他的 Vssue 配置
       autoCreateIssue: true,
-      clientId: "adb9fb0ac1159e00ce7f",
-      clientSecret: "27da8dc85f808c2bd1b6e44da5ae69c4ddf17d8d",
-      owner: "eryajf",
-      repo: "wxyzy",
+      clientId: "Ov23limCDojPZmcHL5YB",
+      clientSecret: "a9ff492ad5a5bcaec942a14c644099c250d36987",
+      owner: "deeplove21",
+      repo: "deeplove21.github.io",
     },
   ],
   [
@@ -43,19 +43,5 @@ module.exports = [
         return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
       },
     },
-  ],
-  [
-      "vuepress-plugin-vssue-global",
-      {
-        platform: "github",
-        title: "[Comment]<%- frontmatter.title %>",
-        needComments: true,
-        // 其他的 Vssue 配置
-        autoCreateIssue: true,
-        clientId: "d3ec4ca6363950ca41a2",
-        clientSecret: "897465b6393f1d663e6128d2fab6959a0c0333cc",
-        owner: "lql95",
-        repo: "lql-notes",
-      },
   ],
 ]
